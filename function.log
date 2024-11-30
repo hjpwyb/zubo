@@ -1,11 +1,11 @@
-2024-11-30 05:50:50,351 - INFO - url: https://raw.githubusercontent.com/xiongjian83/iptv/main/speedtest/zubo.txt 获取成功，判断为txt格式
-2024-11-30 05:50:50,368 - INFO - url: https://raw.githubusercontent.com/xiongjian83/iptv/main/speedtest/zubo.txt 爬取成功✅，包含频道分类: 📡  上海频道, 📡  北京频道, 📡  江西频道, 📡  湖南频道, 湘西公共, 📡  四川频道, 📡  重庆频道, 黑龙江卫视, 📡  湖北频道, 📡  福建频道, 📡  安徽频道, 📡  陕西频道, 📡  天津联通, 📡  河南频道, 📡  山西频道, 📡  广西频道, 📡  河北频道, 📡  甘肃频道
-2024-11-30 05:50:50,398 - INFO - url: https://raw.githubusercontent.com/xiongjian83/iptv/main/speedtest/zubo_fofa.txt 获取成功，判断为txt格式
-2024-11-30 05:50:50,414 - INFO - url: https://raw.githubusercontent.com/xiongjian83/iptv/main/speedtest/zubo_fofa.txt 爬取成功✅，包含频道分类: 📡  上海频道, 📡  江西频道, 📡  江苏频道, 📡  北京联通, 📡  湖南频道, 湘西公共, 📡  浙江频道, 📡  湖北频道, 📡  福建频道, 📡  重庆频道, 黑龙江卫视, 📡  天津频道, 📡  河南频道, 📡  山西频道, 📡  广西频道, 📡  河北频道, 📡  陕西频道
-2024-11-30 05:50:50,572 - INFO - url: https://raw.githubusercontent.com/xiongjian83/zubo/main/speedtest/zubo.txt 获取成功，判断为txt格式
-2024-11-30 05:50:50,589 - INFO - url: https://raw.githubusercontent.com/xiongjian83/zubo/main/speedtest/zubo.txt 爬取成功✅，包含频道分类: 📡  上海频道, 📡  北京频道, 📡  江西频道, 📡  湖南频道, 湘西公共, 📡  四川频道, 📡  重庆频道, 📡  浙江频道, 📡  湖北频道, 📡  福建频道, 📡  安徽频道, 📡  陕西频道, 📡  天津联通, 📡  河南频道, 📡  山西频道, 📡  广西频道, 📡  河北频道, 📡  甘肃频道
-2024-11-30 05:50:50,746 - INFO - url: https://raw.githubusercontent.com/xiongjian83/zubo/main/speedtest/zubo_fofa.txt 获取成功，判断为txt格式
-2024-11-30 05:50:50,763 - INFO - url: https://raw.githubusercontent.com/xiongjian83/zubo/main/speedtest/zubo_fofa.txt 爬取成功✅，包含频道分类: 📡  上海频道, 📡  江西频道, 📡  江苏频道, 📡  北京联通, 📡  湖南频道, 湘西公共, 📡  浙江频道, 📡  湖北频道, 📡  福建频道, 📡  重庆频道, 📡  广东频道, 📡  天津频道, 📡  河南频道, 📡  山西频道, 📡  广西频道, 📡  河北频道, 📡  陕西频道
-2024-11-30 05:50:50,918 - INFO - url: https://raw.githubusercontent.com/happymem2023/zubo/refs/heads/main/zubo.txt 获取成功，判断为txt格式
-2024-11-30 05:50:50,942 - INFO - url: https://raw.githubusercontent.com/xiongjian83/iptv/main/xj.txt 获取成功，判断为txt格式
-2024-11-30 05:50:50,946 - INFO - url: https://raw.githubusercontent.com/xiongjian83/iptv/main/xj.txt 爬取成功✅，包含频道分类: 📡  江西频道, 📡  江苏频道, 📡  福建频道, 📡  河南频道, 🇨🇳咪咕直播, 🇨🇳虎牙直播, 🇨🇳斗鱼直播, 🇨🇳电视剧轮播, 🇨🇳 YY频道, 🇨🇳埋堆堆（港剧）, 🇨🇳 NewTV, 📡  香港频道p2p, 📡  台湾频道p2p, 📡  新闻频道p2p, 📡  电影频道p2p, 📡  戏剧频道p2p
+2024-12-01 05:50:31,565 - INFO - url: https://raw.githubusercontent.com/xiongjian83/iptv/main/speedtest/zubo.txt 获取成功，判断为txt格式
+2024-12-01 05:50:31,581 - INFO - url: https://raw.githubusercontent.com/xiongjian83/iptv/main/speedtest/zubo.txt 爬取成功✅，包含频道分类: 📡  上海频道, 📡  北京频道, 📡  江西频道, 📡  湖南频道, 湘西公共, 📡  四川频道, 📡  重庆频道, 黑龙江卫视, 📡  湖北频道, 📡  福建频道, 📡  安徽频道, 📡  陕西频道, 📡  天津联通, 📡  河南频道, 📡  山西频道, 📡  广西频道, 📡  河北频道, 📡  甘肃频道
+2024-12-01 05:50:31,619 - INFO - url: https://raw.githubusercontent.com/xiongjian83/iptv/main/speedtest/zubo_fofa.txt 获取成功，判断为txt格式
+2024-12-01 05:50:31,635 - INFO - url: https://raw.githubusercontent.com/xiongjian83/iptv/main/speedtest/zubo_fofa.txt 爬取成功✅，包含频道分类: 📡  上海频道, 📡  江西频道, 📡  江苏频道, 📡  北京联通, 📡  湖南频道, 湘西公共, 📡  浙江频道, 📡  湖北频道, 📡  福建频道, 📡  重庆频道, 黑龙江卫视, 📡  天津频道, 📡  河南频道, 📡  山西频道, 📡  广西频道, 📡  河北频道, 📡  陕西频道
+2024-12-01 05:50:31,764 - INFO - url: https://raw.githubusercontent.com/xiongjian83/zubo/main/speedtest/zubo.txt 获取成功，判断为txt格式
+2024-12-01 05:50:31,780 - INFO - url: https://raw.githubusercontent.com/xiongjian83/zubo/main/speedtest/zubo.txt 爬取成功✅，包含频道分类: 📡  上海频道, 📡  北京频道, 📡  江西频道, 📡  湖南频道, 湘西公共, 📡  四川频道, 📡  重庆频道, 📡  浙江频道, 📡  湖北频道, 📡  福建频道, 📡  安徽频道, 📡  陕西频道, 📡  天津联通, 📡  河南频道, 📡  山西频道, 📡  广西频道, 📡  河北频道, 📡  甘肃频道
+2024-12-01 05:50:31,919 - INFO - url: https://raw.githubusercontent.com/xiongjian83/zubo/main/speedtest/zubo_fofa.txt 获取成功，判断为txt格式
+2024-12-01 05:50:31,936 - INFO - url: https://raw.githubusercontent.com/xiongjian83/zubo/main/speedtest/zubo_fofa.txt 爬取成功✅，包含频道分类: 📡  上海频道, 📡  江西频道, 📡  江苏频道, 📡  北京联通, 📡  湖南频道, 湘西公共, 📡  浙江频道, 📡  湖北频道, 📡  福建频道, 📡  重庆频道, 📡  广东频道, 📡  天津频道, 📡  河南频道, 📡  山西频道, 📡  广西频道, 📡  河北频道, 📡  陕西频道
+2024-12-01 05:50:32,074 - INFO - url: https://raw.githubusercontent.com/happymem2023/zubo/refs/heads/main/zubo.txt 获取成功，判断为txt格式
+2024-12-01 05:50:32,099 - INFO - url: https://raw.githubusercontent.com/xiongjian83/iptv/main/xj.txt 获取成功，判断为txt格式
+2024-12-01 05:50:32,103 - INFO - url: https://raw.githubusercontent.com/xiongjian83/iptv/main/xj.txt 爬取成功✅，包含频道分类: 📡  江西频道, 📡  江苏频道, 📡  福建频道, 📡  河南频道, 🇨🇳咪咕直播, 🇨🇳虎牙直播, 🇨🇳斗鱼直播, 🇨🇳电视剧轮播, 🇨🇳 YY频道, 🇨🇳埋堆堆（港剧）, 🇨🇳 NewTV, 📡  香港频道p2p, 📡  台湾频道p2p, 📡  新闻频道p2p, 📡  电影频道p2p, 📡  戏剧频道p2p
