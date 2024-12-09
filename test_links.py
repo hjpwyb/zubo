@@ -1,53 +1,48 @@
 import requests
+import concurrent.futures
 
-INPUT_FILE = "live.txt"
-VALID_FILE = "valid_links.txt"
-INVALID_FILE = "invalid_links.txt"
-
-def extract_links(file_path):
-    """提取链接"""
-    links = []
-    with open(file_path, "r", encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if line.startswith("http://") or line.startswith("https://"):
-                links.append(line.split("$")[0])  # 去掉结尾标记
-    return links
+# 输入文件路径和输出文件路径
+input_file = "links.txt"  # 存放所有链接
+valid_links_file = "valid_links.txt"  # 存放有效链接
+invalid_links_file = "invalid_links.txt"  # 存放无效链接
 
 def test_link(link):
-    """测试链接是否有效"""
+    """测试单个链接是否有效"""
     try:
-        response = requests.head(link, timeout=10)
-        return response.status_code == 200
-    except requests.RequestException:
-        return False
-
-def save_results(valid_links, invalid_links):
-    """保存测试结果"""
-    with open(VALID_FILE, "w", encoding="utf-8") as vf:
-        vf.write("\n".join(valid_links))
-    with open(INVALID_FILE, "w", encoding="utf-8") as ivf:
-        ivf.write("\n".join(invalid_links))
+        response = requests.get(link, timeout=5)  # 设置超时为 5 秒
+        # RTP 流可能不会返回标准 HTTP 状态码，这里简单判断连接是否成功
+        if response.status_code == 200 or response.content:
+            return link, True
+    except requests.exceptions.RequestException:
+        pass
+    return link, False
 
 def main():
-    print("开始提取链接...")
-    links = extract_links(INPUT_FILE)
-    print(f"共找到 {len(links)} 个链接，开始测试...")
-
+    # 加载链接
+    with open(input_file, "r") as f:
+        links = [line.strip() for line in f if line.strip()]
+    
     valid_links = []
     invalid_links = []
-
-    for link in links:
-        if test_link(link):
-            valid_links.append(link)
-        else:
-            invalid_links.append(link)
-        print(f"测试: {link} - {'有效' if link in valid_links else '无效'}")
-
-    print("测试完成，正在保存结果...")
-    save_results(valid_links, invalid_links)
-    print(f"有效链接: {len(valid_links)} 条")
-    print(f"无效链接: {len(invalid_links)} 条")
+    
+    # 使用线程池并发测试链接
+    with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
+        future_to_link = {executor.submit(test_link, link): link for link in links}
+        for future in concurrent.futures.as_completed(future_to_link):
+            link, is_valid = future.result()
+            if is_valid:
+                valid_links.append(link)
+            else:
+                invalid_links.append(link)
+    
+    # 保存结果
+    with open(valid_links_file, "w") as f:
+        f.write("\n".join(valid_links))
+    
+    with open(invalid_links_file, "w") as f:
+        f.write("\n".join(invalid_links))
+    
+    print(f"测试完成：有效链接 {len(valid_links)} 条，无效链接 {len(invalid_links)} 条")
 
 if __name__ == "__main__":
     main()
