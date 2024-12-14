@@ -1,9 +1,9 @@
-2024-12-14 05:50:27,404 - INFO - url: https://raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.txt 获取成功，判断为txt格式
-2024-12-14 05:50:27,408 - INFO - url: https://raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.txt 爬取成功✅，包含频道分类: 中央频道, 卫星频道, 其他频道, 未分组, 12-14 04:43
-2024-12-14 05:50:27,545 - ERROR - url: https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txthttps://raw.githubusercontent.com/xiongjian83/iptv/main/speedtest/zubo.txt 爬取失败❌, Error: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txthttps:/raw.githubusercontent.com/xiongjian83/iptv/main/speedtest/zubo.txt
-2024-12-14 05:50:27,825 - INFO - url: https://live.zbds.top/tv/iptv6.txt 获取成功，判断为txt格式
-2024-12-14 05:50:27,828 - INFO - url: https://live.zbds.top/tv/iptv6.txt 爬取成功✅，包含频道分类: 央视频道, 卫视频道, 电影频道, 数字频道, 儿童频道, 地方频道, 综艺频道, 纪录频道, 体育频道, 游戏频道, 戏曲频道, 更新时间
-2024-12-14 05:50:27,904 - INFO - url: https://live.zbds.top/tv/iptv4.txt 获取成功，判断为txt格式
-2024-12-14 05:50:27,910 - INFO - url: https://live.zbds.top/tv/iptv4.txt 爬取成功✅，包含频道分类: 央视频道, 卫视频道, 电影频道, 数字频道, 儿童频道, 地方频道, 综艺频道, 纪录频道, 体育频道, 解说频道, 游戏频道, 音乐频道, 戏曲频道, 更新时间
-2024-12-14 05:50:27,924 - INFO - url: https://raw.githubusercontent.com/xiongjian83/iptv/main/xj.txt 获取成功，判断为txt格式
-2024-12-14 05:50:27,929 - INFO - url: https://raw.githubusercontent.com/xiongjian83/iptv/main/xj.txt 爬取成功✅，包含频道分类: 📡  江西频道, 📡  江苏频道, 📡  福建频道, 📡  河南频道, 🇨🇳咪咕直播, 🇨🇳虎牙直播, 🇨🇳斗鱼直播, 🇨🇳电视剧轮播, 🇨🇳 YY频道, 🇨🇳埋堆堆（港剧）, 🇨🇳 NewTV, 📡  香港频道p2p, 📡  台湾频道p2p, 📡  新闻频道p2p, 📡  电影频道p2p, 📡  戏剧频道p2p
+2024-12-15 05:50:45,999 - INFO - url: https://raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.txt 获取成功，判断为txt格式
+2024-12-15 05:50:46,003 - INFO - url: https://raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.txt 爬取成功✅，包含频道分类: 中央频道, 卫星频道, 其他频道, 未分组, 12-14 04:43
+2024-12-15 05:50:46,225 - ERROR - url: https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txthttps://raw.githubusercontent.com/xiongjian83/iptv/main/speedtest/zubo.txt 爬取失败❌, Error: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txthttps:/raw.githubusercontent.com/xiongjian83/iptv/main/speedtest/zubo.txt
+2024-12-15 05:50:46,485 - INFO - url: https://live.zbds.top/tv/iptv6.txt 获取成功，判断为txt格式
+2024-12-15 05:50:46,487 - INFO - url: https://live.zbds.top/tv/iptv6.txt 爬取成功✅，包含频道分类: 央视频道, 卫视频道, 电影频道, 数字频道, 儿童频道, 地方频道, 综艺频道, 纪录频道, 体育频道, 游戏频道, 戏曲频道, 更新时间
+2024-12-15 05:50:46,572 - INFO - url: https://live.zbds.top/tv/iptv4.txt 获取成功，判断为txt格式
+2024-12-15 05:50:46,578 - INFO - url: https://live.zbds.top/tv/iptv4.txt 爬取成功✅，包含频道分类: 央视频道, 卫视频道, 电影频道, 数字频道, 儿童频道, 地方频道, 综艺频道, 纪录频道, 体育频道, 解说频道, 游戏频道, 音乐频道, 戏曲频道, 更新时间
+2024-12-15 05:50:46,752 - INFO - url: https://raw.githubusercontent.com/xiongjian83/iptv/main/xj.txt 获取成功，判断为txt格式
+2024-12-15 05:50:46,757 - INFO - url: https://raw.githubusercontent.com/xiongjian83/iptv/main/xj.txt 爬取成功✅，包含频道分类: 📡  江西频道, 📡  江苏频道, 📡  福建频道, 📡  河南频道, 🇨🇳咪咕直播, 🇨🇳虎牙直播, 🇨🇳斗鱼直播, 🇨🇳电视剧轮播, 🇨🇳 YY频道, 🇨🇳埋堆堆（港剧）, 🇨🇳 NewTV, 📡  香港频道p2p, 📡  台湾频道p2p, 📡  新闻频道p2p, 📡  电影频道p2p, 📡  戏剧频道p2p
