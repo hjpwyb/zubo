@@ -1,13 +1,7 @@
 ip_version_priority = "ipv6"
 
 source_urls = [
-    "https://raw.githubusercontent.com/zwc456baby/iptv_alive/blob/master/live.txt",
-    "https://raw.githubusercontent.com/MemoryCollection/IPTV/blob/main/multicast.txt",
-    "https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt"
-    "https://raw.githubusercontent.com/xiongjian83/iptv/main/speedtest/zubo.txt",
-    "https://live.zbds.top/tv/iptv6.txt",  
-    "https://live.zbds.top/tv/iptv4.txt", 
-    "https://raw.githubusercontent.com/xiongjian83/iptv/main/xj.txt",  
+    "https://raw.githubusercontent.com/linyu345/iptv/refs/heads/main/IPTV.txt",  
 ]
 
 url_blacklist = [
