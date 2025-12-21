@@ -8,6 +8,7 @@ on:
 jobs:
   run_script:
     runs-on: ubuntu-latest
+
     env:
       TZ: Asia/Shanghai
 
@@ -19,23 +20,16 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-          cache: 'pip'   # 👉 内置 pip 缓存（可替代 actions/cache）
-
-      # 如果你想显式使用 cache（可选）
-      # - name: Cache dependencies
-      #   uses: actions/cache@v4
-      #   with:
-      #     path: ~/.cache/pip
-      #     key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-      #     restore-keys: |
-      #       ${{ runner.os }}-pip-
+          cache: 'pip'
+          cache-dependency-path: speedtest/requirements.txt
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt || pip install requests
+          pip install -r speedtest/requirements.txt
 
       - name: Run Python script
-        run: python main.py
+        run: |
+          python main.py
 
       - name: Commit and push if changed
         run: |
